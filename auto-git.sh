@@ -8,6 +8,7 @@ echo "scripts自动提交 开始"
 git remote remove origin || true
 git remote add github git@github.com:331296441/automatic.git  || true
 git remote add gitee git@gitee.com:qq331296441/automatic.git || true
+git remote add origin git@gitee.com:qq331296441/automatic.git || true
 
 
 # 获取当前脚本所在目录的绝对路径
