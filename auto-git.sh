@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-echo "scripts自动提交 开始"
+echo "scriptsauto commit 开始"
 
 # 同时同步github和gitee
 
@@ -49,7 +49,7 @@ if [ -n "$(git status -s)" ]; then
   if [ -n "${1}" ]; then
     git commit -m "手动提交 by $HOST_NAME $current_time, 提交内容：${1}"
   else
-    git commit -m "自动提交 by $HOST_NAME $current_time"
+    git commit -m "auto commit by $HOST_NAME $current_time"
   fi
   git push gitee
   git push github
@@ -59,7 +59,7 @@ fi
 
 
 
-echo "脚本自动提交结束"
+echo "脚本auto commit结束"
   
   
 commit_id=$(git rev-parse HEAD)
@@ -68,4 +68,4 @@ echo "当前 Git commit 编号:$commit_id" > Update.md
 echo "提交时间:$commit_time" >> Update.md
 echo "检查时间:$current_time"  >> Update.md
 
-echo "scripts自动提交-done"
+echo "scriptsauto commit-done"
