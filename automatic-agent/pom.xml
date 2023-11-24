@@ -28,7 +28,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.wood.automatic.Main</mainClass> <!-- 指定主类 -->
+                            <mainClass>com.wood.automatic.AutomaticServer</mainClass> <!-- 指定主类 -->
                         </manifest>
                     </archive>
                 </configuration>
