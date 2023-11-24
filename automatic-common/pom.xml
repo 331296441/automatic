@@ -11,12 +11,6 @@
 
     <artifactId>automatic-common</artifactId>
 <dependencies>
-    <dependency>
-        <groupId>com.wood.automatic</groupId>
-        <artifactId>automatic-common</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <scope>provided</scope>
-    </dependency>
 </dependencies>
 
 </project>
