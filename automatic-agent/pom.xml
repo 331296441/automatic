@@ -12,7 +12,7 @@
     <artifactId>automatic-agent</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.wood.automatic</groupId>
+            <groupId>com.wood</groupId>
             <artifactId>automatic-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
