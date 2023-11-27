@@ -52,7 +52,7 @@ if [ -n "$(git status -s)" ]; then
     git commit -m "auto commit by $HOST_NAME $current_time"
   fi
   git push gitee
-  git push github
+  git push github --force
 else
   echo "本地没有更新,跳过"
 fi
