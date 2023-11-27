@@ -10,7 +10,8 @@ target/
 .factorypath
 .project
 .settings
-.springBeans
+.springBeansmvn clean package
+
 .sts4-cache
 
 ### IntelliJ IDEA ###
