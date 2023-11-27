@@ -1,6 +1,6 @@
 package com.wood.automatic;
 
-public class Main {
+public class AutomaticAgent {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
