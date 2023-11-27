@@ -9,8 +9,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
+    <groupId>com.wood</groupId>
     <artifactId>automatic-common</artifactId>
-    <version>
+    <version>0.0.1-SNAPSHOT</version>
 
 <dependencies>
 </dependencies>
