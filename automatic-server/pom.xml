@@ -16,6 +16,7 @@
             <groupId>com.wood</groupId>
             <artifactId>automatic-common</artifactId>
             <version>0.0.1</version>
+            <scope>compile</compile>
         </dependency>
     </dependencies>
 
