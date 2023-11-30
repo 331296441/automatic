@@ -5,9 +5,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AutomaticServer {
+public class AutomaticAgent {
     public static void main(String[] args) {
-        SpringApplication.run(AutomaticServer.class, args);
+        SpringApplication.run(AutomaticAgent.class, args);
         System.out.println("启动成功");
         System.out.println(Constants.TAG);
     }
