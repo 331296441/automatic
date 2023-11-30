@@ -11,6 +11,7 @@
 	<description>一个简单的自动化测试框架，包含一个前后端分离的用例管理平台和一个执行case的agent</description>
     <modules>
         <module>automatic-server</module>
+        <module>automatic-web</module>
 		<module>automatic-common</module>
 	</modules>
     <properties>
