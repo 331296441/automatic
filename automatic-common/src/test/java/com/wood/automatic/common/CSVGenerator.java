@@ -1,5 +1,4 @@
-
-
+package com.wood.automatic.common;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -17,6 +16,7 @@ public class CSVGenerator {
         JSONArray jsonArray = JSONObject.parseArray(input);
 
         List<String[]> data = new ArrayList<>();
+        List<String> headers = new ArrayList<>();
 
         // 遍历 JSON 数组
         for (int i = 0; i < jsonArray.size(); i++) {
@@ -24,9 +24,11 @@ public class CSVGenerator {
 
             // 提取列标题
             Iterator<String> keys = jsonObject.keySet().iterator();
-            List<String> headers = new ArrayList<>();
             while (keys.hasNext()) {
-                headers.add(keys.next());
+                String key = keys.next();
+                if (!headers.contains(key)) {
+                    headers.add(key);
+                }
             }
 
             // 提取列值
