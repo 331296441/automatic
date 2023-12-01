@@ -11,7 +11,7 @@ import java.util.List;
 public class CSVGenerator {
 
     public static void generateCSV(String input, String output) {
-        JSONArray jsonArray = JSONArray.parseArray(input);
+        JSONArray jsonArray = JSONObject.parseArray(input);
 
         List<String[]> data = new ArrayList<>();
 
