@@ -9,7 +9,7 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>automaitc-server</artifactId>
+    <artifactId>automaitc-agent</artifactId>
 
     <dependencies>
         <dependency>
