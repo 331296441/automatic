@@ -7,7 +7,7 @@ echo "scriptsauto commit 开始"
 # 不管是从github 还是gitee下载的，都删掉源重新添加
 git remote remove origin || true
 git remote add github git@github.com:331296441/automatic.git  || true
-git remote add gitee git@gitee.com:qq331296441/automatic.git || true
+git remote add gitee git@gitee.com:qq331296441/automatic-platform.git || true
 # git remote add origin git@gitee.com:qq331296441/automatic.git || true
 git branch --set-upstream-to=gitee/master || true
 
