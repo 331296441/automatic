@@ -1,6 +1,6 @@
 package com.wood.automatic.common.utils;
 
 
-public DictUtils {
+public class DictUtils {
     
 }
