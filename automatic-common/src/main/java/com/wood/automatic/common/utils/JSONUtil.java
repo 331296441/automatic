@@ -1,1 +1,5 @@
-package com.wood.automatic.common.utils
+package com.wood.automatic.common.utils;
+
+public class JSONUtil{
+    
+}
