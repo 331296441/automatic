@@ -1,5 +1,6 @@
 package com.wood.automatic.common.enums;
-import lomb
+import lombok.Getter;
+
 @Getter
 public enum ErrNoEnum{
 
