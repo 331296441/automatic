@@ -1,5 +1,6 @@
 package com.wood.automatic.common.enums;
 
 public enum HTTPMethod {
-    GET, POST, PUT, DELETE
+    GET, HEAD,POST, PUT,PATCH, DELETE,OPTIONS,TRACE;
+
 }
