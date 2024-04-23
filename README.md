@@ -5,7 +5,11 @@
 3. common模块，公共代码
 4. agent，负责在服务器或环境中执行请求
 
-## 
+## 注意
+尽量使用成熟有维护的第三方工具
+如
+hutool
+guava
 
 ## TODO
 - 集成MQ（RocketMQ）
