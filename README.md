@@ -11,3 +11,4 @@
 - 集成Redis
 - 支持多数据源
 - 支持RPC交互（Thrift接口）
+- 支持XXL
