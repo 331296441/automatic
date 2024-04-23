@@ -10,6 +10,8 @@
 如
 hutool
 guava
+apache-commons
+等
 
 ## TODO
 - 集成MQ（RocketMQ）
