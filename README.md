@@ -9,6 +9,6 @@
 ## TODO
 - 集成MQ（RocketMQ）
 - 集成Redis
-- 支持多数据源
+- 支持多数据源（Mysql等）
 - 支持RPC交互（Thrift接口）
-- 支持XXL
+- 支持XXL Job
