@@ -12,3 +12,4 @@
 - 支持多数据源（Mysql等）
 - 支持RPC交互（Thrift接口）
 - 支持XXL Job
+- 使用OkHttps发送HTTP请求（需要支持HTTPS）
