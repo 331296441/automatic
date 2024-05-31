@@ -3,7 +3,6 @@ package com.wood.automatic.rockermq;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.messaging.support.MessageBuilder;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -15,7 +14,7 @@ public class RocketMQProducer {
     private RocketMQTemplate rocketMQTemplate;
     private String topicName="test-message";
 
-    @Scheduled(cron ="1 * * * * ?")
+//    @Scheduled(cron ="* * * * * ?")
     public void sendMessage(){
         rocketMQTemplate.convertAndSend(topicName,"Hello World");
         rocketMQTemplate.send(topicName, MessageBuilder.withPayload("Hello World! from spring").build());
