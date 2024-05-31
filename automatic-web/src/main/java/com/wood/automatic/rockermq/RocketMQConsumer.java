@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @Service
 @RocketMQMessageListener(topic="test-message",consumerGroup ="my-group")
-public class RocketMQConsumer implements RocketMQListener {
+public class RocketMQConsumer implements RocketMQListener<String> {
 
 
     @Override
-    public void onMessage(Object o) {
-        log.info(o.toString());
+    public void onMessage(String o) {
+        log.info("收到MQ消息，内容是：{}",o);
     }
 }
