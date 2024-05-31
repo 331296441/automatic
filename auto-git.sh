@@ -47,7 +47,7 @@ if [ -n "$(git status -s)" ]; then
   git add .
   git add --all .
   if [ -n "${1}" ]; then
-    git commit -m "手动提交 by $HOST_NAME $current_time, 提交内容：${1}"
+    git commit -m "脚本提交 by $HOST_NAME $current_time, 提交内容：${1}"
   else
     git commit -m "auto commit by $HOST_NAME $current_time"
   fi
