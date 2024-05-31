@@ -36,7 +36,8 @@ current_time=$(date "+%Y-%m-%d %H:%M:%S")
 echo "当前时间为:$current_time"
 
 echo "先修改文件,再检查提交,确保修改后实时提交"
-chmod -R 777 ./
+# 对于代码，无需
+# chmod -R 777 ./
 
 
 cd "$SCRIPT_DIR"
