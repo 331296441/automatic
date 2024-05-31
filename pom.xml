@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.wood</groupId>
 	<artifactId>automatic</artifactId>
 	<version>0.0.1</version>
-    <packaging>pom</packaging>
-    <name>automatic</name>
+	<packaging>pom</packaging>
+	<name>automatic</name>
 	<description>一个简单的自动化测试框架,包含一个前后端分离的用例管理平台和一个执行case的agent</description>
-    <modules>
-        <module>automatic-server</module>
-        <module>automatic-web</module>
-        <module>automatic-agent</module>
+	<modules>
+		<module>automatic-server</module>
+		<module>automatic-web</module>
+		<module>automatic-agent</module>
 		<module>automatic-common</module>
 	</modules>
-    <properties>
+	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
@@ -31,11 +30,11 @@
 			<version>2.5.5</version>
 			<scope>test</scope>
 		</dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>2.0.32</version>
-        </dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>2.0.32</version>
+		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -53,10 +52,10 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-    <groupid>org.apache.rocketmq</groupid>
-    <artifactid>rocketmq-spring-boot-starter</artifactid>
-    <version>2.0.3</version>
-</dependency>
+			<groupid>org.apache.rocketmq</groupid>
+			<artifactid>rocketmq-spring-boot-starter</artifactid>
+			<version>2.0.3</version>
+		</dependency>
 	</dependencies>
 
 	<build>
