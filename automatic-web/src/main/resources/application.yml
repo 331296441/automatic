@@ -5,3 +5,6 @@ server:
 spring:
   application:
     name: automatic-web
+rocketmq:
+  name-server: 11.11.11.11:9876
+  
