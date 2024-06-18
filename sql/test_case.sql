@@ -2,7 +2,6 @@ drop table if exists `test_case`;
 
 CREATE TABLE `test_case` (
     `id` bigint unsigned NOT NULL AUTO_INCREMENT COMMENT '主键',
-    `case_serial_number`    int(8)       not null                comment '用例编号排序',
     `case_name` VARCHAR(512) NOT NULL DEFAULT '' COMMENT '用例名称',
     `case_type` VARCHAR(100) NOT NULL DEFAULT '' COMMENT '用例类型 0 HTTP接口 1 Web UI 2 API驱动  3移动端',
     `create_user` VARCHAR(100) NOT NULL DEFAULT '' COMMENT '创建人',
