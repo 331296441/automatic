@@ -3,9 +3,12 @@ package com.wood.automatic.common.utils;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
+import java.util.Date;
 
 public class DateUtil {
-     // Date 转 LocalDateTime
+     /**
+      * Date 转 LocalDateTime
+      */
     public static LocalDateTime dateToLocalDateTime(Date date) {
         if (date == null) {
             return null;
@@ -13,7 +16,7 @@ public class DateUtil {
         return date.toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime();
     }
 
-    // LocalDateTime 转 Date
+    /
     public static Date localDateTimeToDate(LocalDateTime localDateTime) {
         if (localDateTime == null) {
             return null;
