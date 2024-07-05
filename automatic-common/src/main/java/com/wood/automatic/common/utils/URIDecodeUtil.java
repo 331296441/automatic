@@ -25,7 +25,11 @@ public class URIDecodeUtil {
         }
         return s;
     }
-
+    /**
+     * 编码
+     * @param unSecureString
+     * @return
+     */
     public static String encodeUri(String unSecureString){
         String s = "";
 

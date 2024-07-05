@@ -8,6 +8,7 @@ import java.util.Map;
 public class OKHttpUtil {
 
     private OkHttpClient client;
+    //需要提供完善的HTTP封装和返回值的透传
 
     public OKHttpUtil() {
         client = new OkHttpClient.Builder().build();
