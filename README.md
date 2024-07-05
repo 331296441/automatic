@@ -16,7 +16,8 @@ apache-commons
 ## TODO
 - 集成MQ（RocketMQ）
 - 集成Redis
-- 支持多数据源（Mysql等）
+- 集成hutools，使用qi
+- 支持多数据源（Mysql等）-Druid线程池
 - 支持RPC交互（Thrift接口）
 - 支持XXL Job
 - 使用OkHttps发送HTTP请求（需要支持HTTPS）
