@@ -3,7 +3,7 @@ package com.wood.automatic;
 import com.wood.automatic.common.constants.Constants;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotationgit.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
