@@ -6,10 +6,10 @@ CREATE TABLE `test_case_step_interface` (
     `desc` varchar(255) DEFAULT NULL COMMENT '步骤描述',
     `interface_url` VARCHAR(255) DEFAULT NULL COMMENT '接口地址',
     `method` VARCHAR(255) DEFAULT NULL COMMENT '请求方法',
-    `content_type` VARCHAR(255) DEFAULT NULL COMMENT '接口请求体',
-    `interface_headers` VARCHAR(255) DEFAULT NULL COMMENT '接口请求头',
-    `interface_params` VARCHAR(255) DEFAULT NULL COMMENT '接口请求参数',
-    `interface_assert` VARCHAR(255) DEFAULT NULL COMMENT '接口断言',
+    `content_type` VARCHAR(255) DEFAULT NULL COMMENT 'HTTP内容类型',
+    `headers` text COMMENT '接口请求头',
+    `params` VARCHAR(255) DEFAULT NULL COMMENT '接口请求参数',
+    `assert` VARCHAR(255) DEFAULT NULL COMMENT '接口断言',
     `interface_return` VARCHAR(255) DEFAULT NULL COMMENT '接口返回值',
 
         PRIMARY KEY (`id`)
