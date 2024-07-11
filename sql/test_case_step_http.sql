@@ -12,7 +12,7 @@ CREATE TABLE `test_case_step_interface` (
     `assert` text COMMENT '接口断言',
     `return` text COMMENT '接口返回值',
     `save` TEXT COMMENT '接口返回值保存',
-    `test_case_id` bigint unsigned NOT NULL COMMENT '所属测试用例',
+    `tcase_id` bigint unsigned NOT NULL COMMENT '所属测试用例',
 
         PRIMARY KEY (`id`)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COMMENT = '单一测试步骤';
