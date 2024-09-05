@@ -21,5 +21,6 @@ apache-commons
 - 支持多数据源（Mysql等）-Druid线程池
 - 支持RPC交互（Thrift接口）
 - 如何在前后端中使用长链接
-- 支持XXL Job --xxlJob
+- 支持XXL Job --xxl-Job已部署完成，11.11.11.11:8081
 - 使用OkHttps发送HTTP请求（需要支持HTTPS）
+- 使用springboot actuator
