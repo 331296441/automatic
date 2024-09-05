@@ -18,6 +18,7 @@
 		<java.version>8</java.version>
 		<mapstruct.version>1.6.0</mapstruct.version>
 		<spring.version>2.7.18</spring.version>
+		<xxl.version>2.4.1</xxl.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -79,6 +80,16 @@
         <version>${mapstruct.version}</version>
         <scope>compile</scope>
     </dependency>
+		<dependency>
+			<groupId>com.xuxueli</groupId>
+			<artifactId>xxl-job-core</artifactId>
+			<version>${xxl.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.2.12</version>
+		</dependency>
 	</dependencies>
 
 	<build>
