@@ -16,6 +16,7 @@
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>
+		<mapstruct.version>1.6.0</mapstruct.version>
 	</properties>
 	<dependencies>
 		<dependency>

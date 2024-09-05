@@ -23,3 +23,4 @@ apache-commons
 - 如何在前后端中使用长链接
 - 支持XXL Job
 - 使用OkHttps发送HTTP请求（需要支持HTTPS）
+- MapStruct相关依赖,替代BeanUtils
