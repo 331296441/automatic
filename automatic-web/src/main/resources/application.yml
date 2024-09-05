@@ -9,3 +9,14 @@ rocketmq:
   name-server: 11.11.11.11:9876
   producer:
     group: my-group
+
+xxl:
+  job:
+    executor:
+      appname: automatic
+      port: 9999
+      logpath: ./logs
+      logretentiondays: 30
+    accessToken:
+    admin:
+      addresses: http://11.11.11.11:8081/xxl-job-admin

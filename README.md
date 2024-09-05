@@ -21,6 +21,12 @@ apache-commons
 - 支持多数据源（Mysql等）- 使用springboot 默认 连接池 HikariCP
 - 支持RPC交互（Thrift接口）
 - 如何在前后端中使用长链接
+<<<<<<< HEAD
 - 支持XXL Job --xxl-Job已部署完成，11.11.11.11:8081
 - 使用OkHttps发送HTTP请求（需要支持HTTPS）
 - 使用springboot actuator监控程序状态
+=======
+- 支持XXL Job
+- 使用OkHttps发送HTTP请求（需要支持HTTPS）
+- MapStruct相关依赖,替代BeanUtils
+>>>>>>> 84d1331f8ee2c49ad23501f2d307f14ad061356f
