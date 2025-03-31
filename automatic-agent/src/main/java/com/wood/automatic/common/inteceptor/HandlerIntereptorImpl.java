@@ -1,6 +1,10 @@
 package com.wood.automatic.common.inteceptor;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.stereotype.Component;
+
 import lombok.extern.slf4j.Slf4j;
 
 
