@@ -13,6 +13,7 @@
 		<module>automatic-web</module>
 		<module>automatic-agent</module>
 		<module>automatic-common</module>
+		<module>automatic-exploratory</module>
 	</modules>
 	<properties>
 		<java.version>8</java.version>
